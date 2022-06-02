@@ -6,14 +6,17 @@ import { NumberPage } from "./pages/NumberPage";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/NumberPage" element={<NumberPage />} />
-      <Route path="/NumberDetail" element={<NumberDetail />} />
-      <Route path="/*" element={<Error404 />} />
-    </Routes>
-
+    <div >
+      
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/NumberPage" element={<NumberPage />} />
+          <Route path="/NumberDetail" element={<NumberDetail />} />
+          <Route path="/*" element={<Error404 />} />
+        </Routes>
+     
+    </div>
   );
-} 
+}
 
 export default App

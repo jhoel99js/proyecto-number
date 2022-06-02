@@ -1,39 +1,17 @@
 .home_container {
-    background-image: url("https://fondosmil.com/fondo/1945.jpg");
-    height:100%;
-    margin:0;
+    /*background-image: url("https://fondosmil.com/fondo/1945.jpg");*/
+   background-image: url("https://static.vecteezy.com/system/resources/previews/002/476/509/non_2x/child-background-with-rainbow-sun-cloud-kite-and-balloon-free-vector.jpg");
+    /*background-image: url("https://img.freepik.com/foto-gratis/fondo-infantil-coloridas-nubes-planas_360032-1574.jpg?w=2000");*/
     display: flex;
     flex-direction:  column;
     justify-content: center;
     align-items:  center;
+    object-fit: cover;
     
     
 }
 
-.etiqueta {
-    margin-bottom: 5px;
-    color: blue;
-}
 
-.descripcion{
-    margin-top: 20px;
-    font-size: 30px;
-    margin-bottom: 20px;
-    color: red;
-}
 
-.form_control{
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-   
-}
 
-.start_button {
-    width: 100px;
-    background-color: transparent;
-    color: rgb(85, 81, 81);
-    margin-top: 15px;
-}
 
